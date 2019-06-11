@@ -1,0 +1,62 @@
+
+/* Make sure images don't get too big */
+img {
+  max-width: 100%;
+}
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+img{
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+
+
+
+
+a{
+  background-color: red;
+  text-decoration-style: none;
+  color: white;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+
+
+a:hover{
+ color: #555;
+
+}
+
+a:active{
+ color: black;
+}
+
+a:visited{
+ color: purple;
+}
+
+
+
+.error {
+ padding: 10px;
+ width: 92%;
+ color: red;
+ background-color: #f2dede;
+ border: 1px solid red;
+ margin: auto;
+ border-radius: 25px;
+
+
+}

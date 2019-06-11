@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--we have to grab jquery-->
+    <script  type="text/javascript" src="Bootstrap/js/jquery.min.js"></script>
+    <!--We also grab the jquery plugin-->
+    <script type="text/javascript" src="Bootstrap/js/jquery.cycle.all.js"></script>
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+	<title>Tribute Page</title>
+</head>
+<body>
+	<section>
+		<!--The navigation bar-->
+			<nav class="navbar navbar-expand-sm bg-dark">
+				<!--links-->
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="navbar-brand" href="index.php"><img src="images/logo_2.jpg" width="60" height="60"></a></li>
+	                <li class="nav-item"><a class="nav-link" href="#" style="color: #FFF">Life</a></li>
+	                <li class="nav-item"><a class="nav-link" href="#" style="color: #FFF">Career</a></li>
+	                <li class="nav-item"><a class="nav-link" href="#"style="color: #FFF">Mayweather Promotions</a></li>
+	                <li class="nav-item"><a class="nav-link" href="#" style="color: #FFF">Retirement</a></li>
+                </ul>
+            </nav> 
+        <!--The End of the navbar-->
+	</section>
+
+	<section>
+			<div class="row no-gutters">
+				<div class="col-sm-3">
+					<img src="images/manny.jpg" class="animated slow" height="634" width="423">
+				</div>
+
+				<div class="col-sm-3">
+					<img src="images/mayweather.jpg" height="634" width="423">
+				</div>
+
+				<div class="col-sm-3">
+					<img src="images/manny_2.jpg"" class="animated  slow"  height="634" width="423">
+				</div>
+
+				<div class="col-sm-3">
+					<img src="images/manny_1.jpg"" class="animated  slow" height="634" width="423">
+				</div>
+			</div>
+	</section>
+
+
+
+
+	<section>
+		<div class="row">
+
+			<div class="col-4">
+				<h2>Career</h2>
+				<p style="background-color: #696969; color: #FFF;">Mayweather is a proffesional boxer whose professional debut started out in 1997.He was signed to promotional company at that time that was located in Las Vegas Nevada.During his career, he held multiple world titles in five weight classes and the lineal championship in four weight classes (twice at welterweight), and retired with an undefeated record. As an amateur, Mayweather won a bronze medal in the featherweight division at the 1996 Olympics, three U.S. Golden Gloves championships (at light flyweight, flyweight, and featherweight), and the U.S. national championship at featherweight.</p>
+			</div>
+
+			<div class="col-4">
+				<h2>Life style</h2>
+				<p style="background-color: #696969; color: #FFF;">Mayweather is a two-time winner of The Ring magazine's Fighter of the Year award (1998 and 2007), a three-time winner of the Boxing Writers Association of America Fighter of the Year award (2007, 2013, and 2015), and a six-time winner of the Best Fighter ESPY Award (2007–2010, 2012–2014).[1][2] In 2016, Mayweather was ranked by ESPN as the greatest boxer, pound for pound, of the last 25 years.[3] He remains BoxRec's number one fighter of all time, pound for pound, as well as the greatest welterweight of all time.[4][5] Many sporting news and boxing websites, including The Ring, Sports Illustrated, ESPN, BoxRec, Fox Sports, and Yahoo! Sports, ranked Mayweather as the best pound for pound boxer in the world twice in a span of ten years.</p>
+			</div>
+				
+			
+			
+            <div class="col-4">
+            	<h2>Retirement</h2>
+				<p style="background-color: #696969; color: #FFF;
+				">Mayweather retired a couple of times in his professional career.On July 28, 2007, it was announced that Mayweather would come out of his brief retirement to fight The Ring light welterweight champion Ricky Hatton; the bout was promoted by De La Hoya's promotion company (Golden Boy Promotions) and Mayweather's Mayweather Promotions. The fight was entitled "Undefeated"; it took place December 8, 2007, at the MGM Grand Garden Arena, Las Vegas, Nevada, the biggest welterweight showdown between two undefeated fighters since De La Hoya met Félix Trinidad in 1999. During the run-up to their fight Mayweather claimed he was the greatest boxer ever. </p>
+			</div>
+			<div  class="container">
+				<a href="https://en.wikipedia.org/wiki/Floyd_Mayweather_Jr.">Click me</a>
+			</div>	
+
+		</div>
+	</section>
+
+	
+
+		
+
+     <!--The start of the main content- The  slider/carousel
+	<section>
+		<div class="row">
+			<div class="col-sm">
+				<div class="slider">
+					<img src="images/mayweather.jpg" height="634" width="423">
+					<img src="images/manny.jpg"  height="634" width="423">
+					<img src="images/manny_1.jpg"  height="634" width="423">
+					<img src="images/manny_2.jpg"  height="634" width="423">
+					<img src="images/uppercut.jpg"  height="634" width="423">
+				</div>
+			</div>
+		</div>		
+	</section>
+	--->
+
+   <script>
+ //initializing the javascript plugin,called the cycle plugin
+
+   $(document).ready(function(){
+    $(' .slider').cycle({
+    	fx:'shuffle',
+    	pause:0.5,
+
+     });
+
+   });
+
+
+
+   </script>
+
+<script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
